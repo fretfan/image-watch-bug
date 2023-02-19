@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <title>Image watch bug</title>
+  <!-- load source style here -->
+  <link href="./style.css" rel="stylesheet">
+  <!-- load source script here -->
+  <script src="./index.js" defer="defer"></script>
 </head>
 <body>
 
@@ -15,8 +19,8 @@
   <li>one.png is added into dist =)</li>
 </ol>
 
-<img src="<%=require('./images/one.png')%>" width="16" height="16"/>
-<img src="<%=require('./images/two.png')%>" width="16" height="16"/>
+<img src="./images/one.png" width="16" height="16"/>
+<img src="./images/two.png" width="16" height="16"/>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
   "name": "image-watch-bug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "html-webpack-plugin": "5.5.0",
-    "webpack": "5.67.0",
-    "webpack-cli": "4.9.1"
+    "css-loader":"6.7.3",
+    "html-bundler-webpack-plugin": "1.1.1",
+    "webpack": "5.75.0",
+    "webpack-cli": "5.0.1"
   }
 }
